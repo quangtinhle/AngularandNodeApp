@@ -6,6 +6,7 @@ import { MessagesComponent} from './messages.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 
+
 @NgModule({
   declarations: [
     AppComponent, MessagesComponent
@@ -13,7 +14,7 @@ import { MatSliderModule } from '@angular/material/slider';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatSliderModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

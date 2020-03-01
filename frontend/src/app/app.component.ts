@@ -4,7 +4,7 @@ import { MessagesComponent} from './messages.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: '<messages></messages>',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
